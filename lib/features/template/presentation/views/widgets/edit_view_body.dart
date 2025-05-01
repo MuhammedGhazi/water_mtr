@@ -25,7 +25,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
       child: Column(
         children: [
           const SizedBox(height: 50),
-          CustomAppBar(
+          TempCustomAppBar(
             onPressed: () {
               widget.note.title = title ?? widget.note.title;
               widget.note.subTitle = content ?? widget.note.subTitle;
