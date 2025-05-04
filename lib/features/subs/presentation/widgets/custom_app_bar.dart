@@ -5,7 +5,7 @@ import 'custom_search.dart';
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
-
+  final String title = "title";
   @override
   Widget build(BuildContext context) {
     return Padding(

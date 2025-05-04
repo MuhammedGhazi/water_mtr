@@ -13,7 +13,7 @@ class CustomSearch extends StatelessWidget {
 
       height: 50,
       width: 50,
-      child: Icon(Icons.search),
+      child: const Icon(Icons.search),
     );
   }
 }
